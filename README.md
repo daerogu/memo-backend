@@ -1,4 +1,4 @@
-# Guestbook Backend
+# 방명록 Backend
 
 ## 프로젝트 소개
 
