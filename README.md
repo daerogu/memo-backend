@@ -1,8 +1,8 @@
 # 방명록 Backend
 
-## 프로젝트 소개
+전체 과제는 개인 소개 페이지 → 방명록 Frontend → FastAPI Backend → Supabase Database 구조로 구성되어 있습니다.
 
-전체적인 흐름은 소개페이지 -> 방명록남기기 입니다.
+## 프로젝트 소개
 
 클라우드컴퓨팅실습 개인 과제를 위해 제작한 방명록 Backend API입니다.
 
@@ -17,7 +17,14 @@ FastAPI를 이용하여 REST API를 구현하고 Supabase 데이터베이스와 
 
 전체적인 데이터 흐름은 다음과 같습니다.
 
-`React Frontend (Vercel) -> FastAPI Backend (Render) -> Supabase Database`
+## 전체 데이터 흐름
+
+```text
+React Frontend (Vercel)
+        ↓ fetch
+FastAPI Backend (Render)
+        ↓ SQLAlchemy
+Supabase Database
 
 ## 주요 기능
 
@@ -54,18 +61,16 @@ FastAPI를 이용하여 REST API를 구현하고 Supabase 데이터베이스와 
 
 ## 배포 주소
 
-Render
+| 구분 | 주소 |
+| --- | --- |
+| 개인 소개 페이지 | https://my-page-lake-gamma.vercel.app/ |
+| 방명록 Frontend | https://memo-frontend-sand.vercel.app/ |
+| 방명록 Swagger UI | https://memo-backend-yeu0.onrender.com/docs |
 
-https://memo-backend-yeu0.onrender.com/
+## GitHub 저장소
 
-FastAPI Swagger UI
-
-https://memo-backend-yeu0.onrender.com/docs
-
-## 관련 프로젝트
-
-- Personal Page  
-  https://github.com/daerogu/my-page
-
-- Guestbook Frontend  
-  https://github.com/daerogu/memo-frontend
+| 프로젝트 | 저장소 |
+| --- | --- |
+| 개인 소개 페이지 | https://github.com/daerogu/my-page |
+| 방명록 Frontend | https://github.com/daerogu/memo-frontend |
+| 방명록 Backend | https://github.com/daerogu/memo-backend |
