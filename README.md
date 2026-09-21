@@ -60,12 +60,13 @@ FastAPI를 이용하여 REST API를 구현하고 Supabase 데이터베이스와 
 - GitHub
 - Render
 
-## 파일 구성
+## 주요 파일 구성
 
 - `main.py` : FastAPI 애플리케이션, API 및 CORS 설정
 - `database.py` : Supabase 데이터베이스 연결 설정
 - `models.py` : 데이터 모델 정의
 - `requirements.txt` : Python 패키지 목록
+- `supabase_1.png` : supabase 적재 확인 이미지
 
 ## Supabase 데이터 저장 확인
 
