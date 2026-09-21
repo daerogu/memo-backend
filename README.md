@@ -67,6 +67,15 @@ FastAPI를 이용하여 REST API를 구현하고 Supabase 데이터베이스와 
 - `models.py` : 데이터 모델 정의
 - `requirements.txt` : Python 패키지 목록
 
+## Supabase 데이터 저장 확인
+
+방명록에 작성된 데이터는 Supabase Database에 저장되며,
+Frontend를 새로고침하거나 Backend가 재시작되어도 데이터가 유지되도록 구성했습니다.
+
+아래는 Supabase Table Editor에서 실제로 적재된 방명록 데이터를 확인한 화면입니다.
+
+![Supabase 데이터 적재 화면](supabase_1.png)
+
 ## 배포 주소
 
 | 구분 | 주소 |
