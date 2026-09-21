@@ -19,11 +19,20 @@ FastAPI를 이용하여 REST API를 구현하고 Supabase 데이터베이스와 
 
 ## 전체 데이터 흐름
 
-React Frontend (Vercel)
-        ↓ fetch
-FastAPI Backend (Render)
-        ↓ SQLAlchemy
-Supabase Database
+- **React Frontend (Vercel)**
+  - 사용자 입력 처리
+  - FastAPI Backend에 `fetch` 요청
+
+  ↓
+
+- **FastAPI Backend (Render)**
+  - REST API 요청 처리
+  - SQLAlchemy를 통해 Database와 연결
+
+  ↓
+
+- **Supabase Database**
+  - 방명록 데이터 저장 및 유지
 
 ## 주요 기능
 
